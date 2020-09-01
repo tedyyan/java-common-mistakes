@@ -9,7 +9,7 @@ public class ClassToTest{
 
 	public boolean query(String string) {
 		
-		return this.databaseMock.query(string);
+		return true;//this.databaseMock.query(string);
 	}
 	
 }
